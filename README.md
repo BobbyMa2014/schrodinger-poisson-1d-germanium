@@ -1,4 +1,4 @@
-# schrodinger-poisson-1d
+# schrodinger-poisson-1d-germanium
 Numerical calculation of one-dimensional self-consistent Schrödinger-Poisson for germanium heterostructures
 
 ## Features
