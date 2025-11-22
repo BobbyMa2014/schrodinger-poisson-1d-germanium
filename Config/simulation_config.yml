@@ -1,0 +1,23 @@
+parameter:
+  gate_voltage: -0.5
+  interface_density: 0.0
+  source_drain: 3.88e-08
+  fixed_fermi: 595.4
+  method_fermi: Fermi
+simulation:
+  mesh_step: 5e-11
+  max_iterations: 300
+  progress_bar_enable: true
+save:
+  save_log: true
+  plot_combined: false
+  check_existing: false
+  simulation_log: .\Log
+  results_sim: .\Results\results.h5
+  results_schrodinger: .\Results\Schrodinger
+  store_format:
+  - '%.5f'
+  - '%.5e'
+  - '%.5e'
+  - '%.5e'
+  - '%.5e'
